@@ -33,3 +33,6 @@ class NaturalLanguageSearchRequest(BaseModel):
 
 class NaturalLanguageSearchResponse(BaseModel):
     answer: str
+
+class Memory(BaseModel):
+    text: str
